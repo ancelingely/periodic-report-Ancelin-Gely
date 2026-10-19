@@ -8,25 +8,28 @@ The project is divided into two parts (described below) :
 #### Task list for the Master 2 internship work
 
 1. Precise description of motor comportment
-1. Implement the linear organization metrics: autocorrelation function (ACF) regularity, spectral power and spectral width, and harmonicity index (IH), depending on feasibility.
-2. Implement and assess the convergence of selected nonlinear metrics, with a particular focus on HKp using 50–150 strides.
-3. Assess the robustness of the metrics to sensor orientation and walking speed.
-4. Analyze the impact of timing errors on advanced gait metrics.
+
+        1. Implement the linear organization metrics: autocorrelation function (ACF) regularity, spectral power and spectral width, and harmonicity index (IH), depending on feasibility.
+        2. Implement and assess the convergence of selected nonlinear metrics, with a particular focus on HKp using 50–150 strides.
+        3. Assess the robustness of the metrics to sensor orientation and walking speed.
+        4. Analyze the impact of timing errors on advanced gait metrics.
+
 
 2. Validation of walking data
-
 2.1. General pipeline and quality control
-1. Develop a reproducible pipeline for reading and preprocessing gait-related .gt3x files.
-2. Develop and document a walking detector, explicitly handling short pauses, turns, and elementary walking bouts.
-3. Implement a quality-control (QC) system at the participant, day, bout, and metric levels.
-4. Provide complete documentation, including software versions, parameters, pseudocode or a pipeline diagram, and methodological decisions.
+        1. Develop a reproducible pipeline for reading and preprocessing gait-related .gt3x files.
+        2. Develop and document a walking detector, explicitly handling short pauses, turns, and elementary walking bouts.
+        3. Implement a quality-control (QC) system at the participant, day, bout, and metric levels.
+        4. Provide complete documentation, including software versions, parameters, pseudocode or a pipeline diagram, and methodological decisions.
 
 2.2. Validation against Qualisys
-1. Develop and document a stride/cycle detector, validated against Qualisys.
-2. Produce a validation report for cadence, mean stride time, and temporal variability.
-3. Make and document a justified decision regarding stride length and walking speed, based on their estimation accuracy and agreement with Qualisys.
+        1. Develop and document a stride/cycle detector, validated against Qualisys.
+        2. Produce a validation report for cadence, mean stride time, and temporal variability.
+        3. Make and document a justified decision regarding stride length and walking speed, based on their estimation accuracy and agreement with Qualisys.
+        4. Document the validation results and any necessary adjustments to the processing pipeline.
+
 2.3. Validation against BORIS in a semi-ecological setting
-1. Produce a WALK/non-WALK validation report using a semi-ecological walking protocol, comparing the detector's classifications against annotations made in BORIS.
+        1. Produce a WALK/non-WALK validation report using a semi-ecological walking protocol, comparing the detector's classifications against annotations made in BORIS.
 
 
 # 1 Description of motor comportment
