@@ -2,33 +2,33 @@
 My internship project is part of the APPROCHE(-S) study (CHU Nîmes, department of physical medicine and rehabilitation). The objective of this sudy is to describe predictive factors for the success of rehabilitation programs in chronic low back pain. The study is based on activity limitation and associated factors that can predict the success of rehabilitation programs (psychological, physical, social factors). Evaluation is based on questionnaires, 3D movement evaluation (gait, balance, trunk positioning, trunk flexion, lifting), and accelerometer data.
 
 The project is divided into two parts (described below) :
-    - 1 : Precise description of motor comportment  
-    - 2 : Validation of walking data 
+* 1 : Precise description of motor comportment  
+* 2 : Validation of walking data 
 
 #### Task list for the Master 2 internship work
 
 1. Precise description of motor comportment
-1.1 Implement the linear organization metrics: autocorrelation function (ACF) regularity, spectral power and spectral width, and harmonicity index (IH), depending on feasibility.
-1.2 Implement and assess the convergence of selected nonlinear metrics, with a particular focus on HKp using 50–150 strides.
-1.23. Assess the robustness of the metrics to sensor orientation and walking speed.
-1.4 Analyze the impact of timing errors on advanced gait metrics.
+* Implement the linear organization metrics: autocorrelation function (ACF) regularity, spectral power and spectral width, and harmonicity index (IH), depending on feasibility.
+* Implement and assess the convergence of selected nonlinear metrics, with a particular focus on HKp using 50–150 strides.
+* Assess the robustness of the metrics to sensor orientation and walking speed.
+* Analyze the impact of timing errors on advanced gait metrics.
 
 
 2. Validation of walking data
-2.1. General pipeline and quality control
-2.1.1. Develop a reproducible pipeline for reading and preprocessing gait-related .gt3x files.
-2.2.2. Develop and document a walking detector, explicitly handling short pauses, turns, and elementary walking bouts.
-2.1.3. Implement a quality-control (QC) system at the participant, day, bout, and metric levels.
-2.1.4. Provide complete documentation, including software versions, parameters, pseudocode or a pipeline diagram, and methodological decisions.
+* General pipeline and quality control
+* Develop a reproducible pipeline for reading and preprocessing gait-related .gt3x files.
+* Develop and document a walking detector, explicitly handling short pauses, turns, and elementary walking bouts.
+* Implement a quality-control (QC) system at the participant, day, bout, and metric levels.
+* Provide complete documentation, including software versions, parameters, pseudocode or a pipeline diagram, and methodological decisions.
 
 2.2. Validation against Qualisys
-2.2.1. Develop and document a stride/cycle detector, validated against Qualisys.
-2.2.2. Produce a validation report for cadence, mean stride time, and temporal variability.
-2.2.3. Make and document a justified decision regarding stride length and walking speed, based on their estimation accuracy and agreement with Qualisys.
-2.2.4. Document the validation results and any necessary adjustments to the processing pipeline.
+* Develop and document a stride/cycle detector, validated against Qualisys.
+* Produce a validation report for cadence, mean stride time, and temporal variability.
+* Make and document a justified decision regarding stride length and walking speed, based on their estimation accuracy and agreement with Qualisys.
+* Document the validation results and any necessary adjustments to the processing pipeline.
 
 2.3. Validation against BORIS in a semi-ecological setting
-2.3.1. Produce a WALK/non-WALK validation report using a semi-ecological walking protocol, comparing the detector's classifications against annotations made in BORIS.
+* Produce a WALK/non-WALK validation report using a semi-ecological walking protocol, comparing the detector's classifications against annotations made in BORIS.
 
 
 # 1 Description of motor comportment
