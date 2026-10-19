@@ -15,7 +15,8 @@ The project is divided into two parts (described below) :
 
 
 2. Validation of walking data
-* General pipeline and quality control
+
+2.1. General pipeline and quality control
 * Develop a reproducible pipeline for reading and preprocessing gait-related .gt3x files.
 * Develop and document a walking detector, explicitly handling short pauses, turns, and elementary walking bouts.
 * Implement a quality-control (QC) system at the participant, day, bout, and metric levels.
